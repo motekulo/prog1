@@ -1080,6 +1080,315 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Audio:NMJ6HCD2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NMJ6HCD2"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hcd2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones connector neutrik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMJ6HCD2_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.826) (xy -1.016 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.254) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.334) (xy 2.032 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 6.35)
+					(end -5.08 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy -2.54 5.08) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -1.27 2.54) (xy -1.27 4.826) (xy -1.524 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NMJ6HCD2_1_1"
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic_MountingPin:Conn_02x05_Odd_Even_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -4738,107 +5047,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_24"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_24_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_24_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GND_25"
 			(power)
 			(pin_numbers
@@ -6730,230 +6938,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NYS215:NYS215"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "NYS215"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "NYS215"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Phone Connectors 1/4\" STEREO SWITCHED REAN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "15.85"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "568-NYS215"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/REAN/NYS215?qs=JfNPhaIww3IP3mAnpHYtWw%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Neutrik"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "NYS215"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "NYS215_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:L78L05_TO92"
 			(pin_names
 				(offset 0.254)
@@ -7657,6 +7641,12 @@
 		(uuid "64fcaeef-ac32-45a3-ab28-4e6dc1d1990a")
 	)
 	(junction
+		(at 165.1 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73fd9bc9-b0af-4044-b299-c8d7eafdd00a")
+	)
+	(junction
 		(at 118.11 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7956,6 +7946,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 101.6) (xy 257.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d7b690-2542-49c6-9ba2-0187baa5af05")
+	)
+	(wire
+		(pts
 			(xy 19.05 173.99) (xy 19.05 182.88)
 		)
 		(stroke
@@ -7973,16 +7973,6 @@
 			(type default)
 		)
 		(uuid "388360e5-bf27-46a4-950a-69fac84b6047")
-	)
-	(wire
-		(pts
-			(xy 246.38 101.6) (xy 254 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "392b08af-32d4-4a51-825f-b99ec153b8d0")
 	)
 	(wire
 		(pts
@@ -8026,16 +8016,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 22.86) (xy 38.1 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dc6e8a3-b520-4b6b-8277-118cc45e8845")
-	)
-	(wire
-		(pts
 			(xy 24.13 88.9) (xy 30.48 88.9)
 		)
 		(stroke
@@ -8063,16 +8043,6 @@
 			(type default)
 		)
 		(uuid "402664cb-e512-4846-bf84-af919579fca8")
-	)
-	(wire
-		(pts
-			(xy 247.65 99.06) (xy 254 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "421db3f7-a740-47a5-9143-c71980cf4918")
 	)
 	(wire
 		(pts
@@ -8266,6 +8236,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 21.59) (xy 36.83 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6225a0c9-5764-48e7-90bc-327c21e683d7")
+	)
+	(wire
+		(pts
 			(xy 243.84 67.31) (xy 245.11 67.31)
 		)
 		(stroke
@@ -8436,16 +8416,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 104.14) (xy 254 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "844371de-bebd-4fe3-87d4-8ab57152dcc3")
-	)
-	(wire
-		(pts
 			(xy 203.2 64.77) (xy 203.2 71.12)
 		)
 		(stroke
@@ -8466,7 +8436,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 143.51) (xy 160.02 152.4)
+			(xy 160.02 143.51) (xy 160.02 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8566,7 +8536,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 143.51) (xy 165.1 152.4)
+			(xy 165.1 143.51) (xy 165.1 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8796,6 +8766,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 96.52) (xy 257.81 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd78099-188f-4ca7-8b15-32f6efdf5054")
+	)
+	(wire
+		(pts
 			(xy 120.65 161.29) (xy 120.65 168.91)
 		)
 		(stroke
@@ -8816,13 +8796,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 27.94) (xy 36.83 27.94)
+			(xy 165.1 146.05) (xy 165.1 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d24d2a82-fdb1-45e7-8c24-db6be54468ac")
+		(uuid "d23f9e1b-15e0-4b51-a993-5326e64b12b6")
 	)
 	(wire
 		(pts
@@ -8913,6 +8893,36 @@
 			(type default)
 		)
 		(uuid "e2c6092e-b8c9-4eda-9c44-3c8abd54403c")
+	)
+	(wire
+		(pts
+			(xy 250.19 106.68) (xy 257.81 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59ce6a5-a9be-4ea9-b403-2c0281c43465")
+	)
+	(wire
+		(pts
+			(xy 31.75 31.75) (xy 35.56 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e656ae3a-c8e7-4a2e-ad0d-07c68ef80a59")
+	)
+	(wire
+		(pts
+			(xy 160.02 146.05) (xy 165.1 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e873cfc5-94c8-45a0-a288-fd40f123b97b")
 	)
 	(wire
 		(pts
@@ -9264,6 +9274,16 @@
 		)
 		(uuid "5a5d17d0-fb7b-43d6-9a48-e008af75f8bf")
 	)
+	(label "fsw6"
+		(at 252.73 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d96de5a-ca2f-4df8-8e3c-e0f63f798008")
+	)
 	(label "VCC"
 		(at 60.96 154.94 0)
 		(effects
@@ -9333,6 +9353,16 @@
 			(justify left bottom)
 		)
 		(uuid "768021e1-506a-4012-94fe-a5e5dbaf1175")
+	)
+	(label "fsw4"
+		(at 252.73 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bae9daa-ee55-4318-958b-ef3091a9ee78")
 	)
 	(label "fsw5"
 		(at 48.26 182.88 0)
@@ -9405,7 +9435,7 @@
 		(uuid "b488dfce-a683-4e21-bdfb-9fac04db4c4c")
 	)
 	(label "fsw7"
-		(at 38.1 22.86 0)
+		(at 35.56 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9413,16 +9443,6 @@
 			(justify left bottom)
 		)
 		(uuid "b8790f9a-0c3d-4314-9af5-4a9ae56ad09d")
-	)
-	(label "fsw4"
-		(at 246.38 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bb0426e2-aabb-4ec8-aa27-827b05c7f53d")
 	)
 	(label "fsw8"
 		(at 106.68 137.16 180)
@@ -9503,16 +9523,6 @@
 			(justify left bottom)
 		)
 		(uuid "d01e7112-4196-4231-ba9b-87831f301382")
-	)
-	(label "fsw6"
-		(at 246.38 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8a841d4-7667-44e2-9ca9-b59d26fa90b0")
 	)
 	(label "fsw4"
 		(at 48.26 91.44 0)
@@ -9658,7 +9668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02a80d91-8fe5-4889-a7e1-3f3ed1e1da14")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 203.2 85.09 0)
 			(effects
 				(font
@@ -9708,7 +9718,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10483,7 +10493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "231a2e48-5aee-41d4-9096-d9e39f298a91")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 214.63 46.99 0)
 			(effects
 				(font
@@ -10533,7 +10543,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11294,6 +11304,86 @@
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:NMJ6HCD2")
+		(at 26.67 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42f53dbe-1cfb-458b-913a-f492a0ac14d4")
+		(property "Reference" "J1"
+			(at 24.765 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Guitar in"
+			(at 24.765 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
+			(at 26.67 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hcd2"
+			(at 26.67 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins"
+			(at 26.67 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "R"
+			(uuid "11563b46-cddf-4838-8776-efd9e0924d3c")
+		)
+		(pin "SN"
+			(uuid "34a1b443-a976-4f74-a6ca-541a1fcba139")
+		)
+		(pin "S"
+			(uuid "9a8d2ba3-d79e-4d48-a10b-6b237b834abf")
+		)
+		(pin "RN"
+			(uuid "763fcea7-1691-46e1-b252-95dc4795a8d6")
+		)
+		(pin "T"
+			(uuid "3f132fac-1cc2-41dc-a09b-69ff1eb55a90")
+		)
+		(pin "TN"
+			(uuid "62010f85-1a26-4699-a639-7e479f46467c")
+		)
+		(instances
+			(project ""
+				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -12570,6 +12660,72 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_20")
+		(lib_id "power:GND")
+		(at 250.19 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "724326c9-e72b-495d-b794-42f8dadaf10b")
+		(property "Reference" "#PWR028"
+			(at 250.19 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f4807f5-c41f-4b3f-bf68-85625dd94dcc")
+		)
+		(instances
+			(project "125b"
+				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 93.98 53.34 0)
 		(unit 1)
@@ -12823,7 +12979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fa00d51-8786-4876-b425-d51633cc1592")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 218.44 81.28 0)
 			(effects
 				(font
@@ -12873,7 +13029,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12882,7 +13038,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 36.83 27.94 90)
+		(at 36.83 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12890,7 +13046,7 @@
 		(dnp no)
 		(uuid "7fa5417f-0d3f-4c69-8f78-ab14daeda577")
 		(property "Reference" "#PWR01"
-			(at 43.18 27.94 0)
+			(at 43.18 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12899,7 +13055,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 31.75 90)
+			(at 38.1 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12908,7 +13064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 27.94 0)
+			(at 36.83 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12917,7 +13073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 27.94 0)
+			(at 36.83 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12926,7 +13082,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 27.94 0)
+			(at 36.83 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13009,138 +13165,6 @@
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NYS215:NYS215")
-		(at 274.32 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84598905-ac21-4922-a1bb-295aca24cc2c")
-		(property "Reference" "J4"
-			(at 264.16 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Guitar out"
-			(at 264.16 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project:NYS215"
-			(at 257.81 9.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 -90.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Phone Connectors 1/4\" STEREO SWITCHED REAN"
-			(at 274.32 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "15.85"
-			(at 257.81 -290.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "568-NYS215"
-			(at 257.81 -390.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/REAN/NYS215?qs=JfNPhaIww3IP3mAnpHYtWw%3D%3D"
-			(at 257.81 -490.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Neutrik"
-			(at 257.81 -590.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NYS215"
-			(at 257.81 -690.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "586d0535-c04d-4d1f-9d2e-14200afa2ff5")
-		)
-		(pin "1"
-			(uuid "83d9108e-3dba-490c-841e-bc2f42e536e1")
-		)
-		(pin "2"
-			(uuid "93999e72-e7e7-47e8-8fca-f7506b0c7975")
-		)
-		(pin "3"
-			(uuid "22e832f6-fc3d-4d50-a17d-7d6e654216a0")
-		)
-		(pin "5"
-			(uuid "5d768889-dfb4-469e-8e97-fee80837d112")
-		)
-		(pin "6"
-			(uuid "ec03f231-724b-42f2-8943-f608025d515b")
-		)
-		(instances
-			(project "125b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13643,7 +13667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d05bc98-3194-4ab6-983c-00cf5eda91fb")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 193.04 49.53 0)
 			(effects
 				(font
@@ -13693,7 +13717,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13905,6 +13929,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:NMJ6HCD2")
+		(at 262.89 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa04b8e5-cd66-4ee7-826c-fe7b695f64ae")
+		(property "Reference" "J4"
+			(at 270.51 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Guitar out"
+			(at 270.51 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Project:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hcd2"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "R"
+			(uuid "33e59a4f-5763-4cd9-a90a-a4c24be3bb02")
+		)
+		(pin "SN"
+			(uuid "2c6656f4-4dda-461a-8d4c-3e5d5ded58b9")
+		)
+		(pin "S"
+			(uuid "51cfb564-9176-4f01-b44b-c4ac0d0251e2")
+		)
+		(pin "RN"
+			(uuid "6f83f331-ba4c-4d96-9b6f-81fadef0ea43")
+		)
+		(pin "T"
+			(uuid "e5551068-13a5-4e86-90b3-353a32a2e4a4")
+		)
+		(pin "TN"
+			(uuid "326d67bb-6d09-4668-a6b2-242f7dfe1bc4")
+		)
+		(instances
+			(project "125b"
+				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 257.81 33.02 90)
 		(unit 1)
@@ -13973,138 +14079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NYS215:NYS215")
-		(at 13.97 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b57981a0-3783-4fd3-b64e-9ba3cf600915")
-		(property "Reference" "J1"
-			(at 24.13 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Guitar in"
-			(at 24.13 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project:NYS215"
-			(at 30.48 117.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 217.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Phone Connectors 1/4\" STEREO SWITCHED REAN"
-			(at 13.97 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "15.85"
-			(at 30.48 417.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "568-NYS215"
-			(at 30.48 517.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/REAN/NYS215?qs=JfNPhaIww3IP3mAnpHYtWw%3D%3D"
-			(at 30.48 617.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Neutrik"
-			(at 30.48 717.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NYS215"
-			(at 30.48 817.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "2b4d21ac-7c9d-4a33-afd9-f646f42d16bf")
-		)
-		(pin "1"
-			(uuid "b49d1c8f-0dda-4c87-b377-bc7e38606e0a")
-		)
-		(pin "2"
-			(uuid "5cd1d218-711b-440b-9c99-cf50c89e50fb")
-		)
-		(pin "3"
-			(uuid "fbf90e47-61c7-4d65-a106-e37d02157d90")
-		)
-		(pin "5"
-			(uuid "ee9aa2dc-0d85-42f6-b767-ae95bcb715e3")
-		)
-		(pin "6"
-			(uuid "281e783c-8118-402d-8fb1-ecca686b2ae2")
-		)
-		(instances
-			(project ""
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_19")
 		(lib_id "power:GND")
 		(at 264.16 44.45 0)
@@ -14114,7 +14088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b57c894a-683c-4223-aca1-d07f97e9fe21")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 264.16 50.8 0)
 			(effects
 				(font
@@ -14164,7 +14138,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -14617,73 +14591,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_24")
-		(lib_id "power:GND")
-		(at 160.02 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0ce8ea7-4c98-4dc8-8ea3-f6f4cd9ca433")
-		(property "Reference" "#PWR021"
-			(at 160.02 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a8e21ba-ed3d-41b3-8a45-fb6109e37a2d")
-		)
-		(instances
-			(project "podal_1590b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 193.04 39.37 180)
 		(unit 1)
@@ -14820,73 +14727,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_20")
-		(lib_id "power:GND")
-		(at 247.65 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9af28d5-0e7c-406d-b4e9-56ef67fd441f")
-		(property "Reference" "#PWR029"
-			(at 247.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 247.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94cda49b-f411-4b12-bb33-31d204525fd3")
-		)
-		(instances
-			(project "125b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_25")
 		(lib_id "power:GND")
 		(at 165.1 152.4 0)
@@ -14897,7 +14737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cadc4423-5dda-48ce-afe7-d4d05f9c39d6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 165.1 158.75 0)
 			(effects
 				(font
@@ -14947,7 +14787,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15036,7 +14876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdf142ae-8cdb-4290-8181-0a7ed964252e")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 218.44 57.15 0)
 			(effects
 				(font
@@ -15086,7 +14926,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15118,7 +14958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Switch:Switch_Toggle_SPDT_SubMini"
+		(property "Footprint" "Project:mini_switch_jaycar_SPDT"
 			(at 33.02 53.34 0)
 			(effects
 				(font
@@ -15514,7 +15354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f66dffd3-4c7d-4cff-bdfc-051ede273324")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 261.62 85.09 0)
 			(effects
 				(font
@@ -15564,7 +15404,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15716,7 +15556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc69ac1b-551f-4bbd-b585-fb3cb39d1fa3")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 214.63 22.86 0)
 			(effects
 				(font
@@ -15766,7 +15606,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
