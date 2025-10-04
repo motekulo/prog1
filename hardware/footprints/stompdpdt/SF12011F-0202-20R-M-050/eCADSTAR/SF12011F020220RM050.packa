@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SF12011F-0202-20R-M-050"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-08-19-14:12:30)
+    (mountForm default
+        (footprintRef "SF12011F020220RM050")
+        (spec "System")
+    )
+)

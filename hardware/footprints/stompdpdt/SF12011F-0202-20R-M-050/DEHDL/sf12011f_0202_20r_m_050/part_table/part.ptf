@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SF12011F_0202_20R_M_050'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Alpha (Taiwan)", "SF12011F-0202-20R-M-050" (!) = "", "SF12011F020220RM050", "Other", "107-SF12011F-M", "https://www.mouser.com/Search/Refine.aspx?Keyword=107-SF12011F-M", "Pushbutton Switches DPDT STOMP/FOOT SW MOM 4A30VDC 9PIN", "https://componentsearchengine.com//SF12011F-0202-20R-M-050.pdf", "33.5 mm"
+END_PART
+
+END.

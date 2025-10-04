@@ -1,0 +1,9 @@
+Manufacturer=Alpha (Taiwan)
+PartNumber=SF12011F-0202-20R-M-050
+PartCategory=Switch
+PackageCategory=Other
+PinCount=6
+Version=2.4
+Released=2020-10-13 10:34:45
+Downloaded=2025-10-04 02:24:46
+3D=Y
