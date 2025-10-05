@@ -445,7 +445,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "/home/dcrowdy/progpedals/crouds/hardware/3dmodels/3-D NMJ6HCD2.stp"
+	(model "/Users/dcrowdy/progpedals/crouds/hardware/3dmodels/3-D NMJ6HCD2.stp"
 		(offset
 			(xyz -4 -8 0.5)
 		)
