@@ -1,0 +1,16 @@
+.NYS215 :1 ;Phone Connectors 1/4" STEREO SWITCHED REAN
+NYS215
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 6
+*DFN NYS215
+~!Mouser Part Number (568-NYS215)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/REAN/NYS215?qs=JfNPhaIww3IP3mAnpHYtWw%3D%3D)
+~!Manufacturer_Name (Neutrik)
+~!Manufacturer_Part_Number (NYS215)
+~!Link Datasheet (-)
+~!Height (15.85mm)
+~!3D_Model (NYS215)
+NYS215
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NYS215'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Neutrik", "NYS215" (!) = "", "NYS215", "Other", "568-NYS215", "https://www.mouser.co.uk/ProductDetail/REAN/NYS215?qs=JfNPhaIww3IP3mAnpHYtWw%3D%3D", "Phone Connectors 1/4" STEREO SWITCHED REAN", "", "15.85 mm"
+END_PART
+
+END.
