@@ -1556,7 +1556,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 4.6625 1 0)
+			(at 4.4125 1.25 0)
 			(layer "F.SilkS")
 			(uuid "0c8a472f-d614-4721-b14e-53477b34f9e1")
 			(effects
@@ -3616,7 +3616,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 4.5 -0.75 0)
+			(at 2.25 -2 0)
 			(layer "F.SilkS")
 			(uuid "86833017-b76e-4f9a-857e-2d2cde058955")
 			(effects
@@ -3815,7 +3815,7 @@
 		(descr "113004U 1130A6S 11300DR 1130A8G 1130081 1130A5R 1130AP5 1130AST  D1130C3W D1130C1B D1130C3C D1130C2P Potentiometer, vertical, Alps RK09K Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09k/rk09k.pdf")
 		(tags "Potentiometer vertical Alps RK09K RK09D Single Snapin")
 		(property "Reference" "RV2"
-			(at 11.5 4.5 180)
+			(at 16.813178 -1.236822 180)
 			(layer "F.SilkS")
 			(uuid "e674d5bf-bd16-49c9-ae6a-0eeed3773f2e")
 			(effects
@@ -6060,7 +6060,7 @@
 		(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF")
 		(tags "rotary encoder")
 		(property "Reference" "SW2"
-			(at 12 6.5 180)
+			(at 12 10.325 180)
 			(layer "F.SilkS")
 			(uuid "e18fae72-e466-4672-8466-d75982464500")
 			(effects
@@ -10390,7 +10390,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/Users/dcrowdy/progpedals/crouds/hardware/3dmodels/3-D NMJ6HCD2.stp"
+		(model "/home/dcrowdy/progpedals/crouds/hardware/3dmodels/3-D NMJ6HCD2.stp"
 			(offset
 				(xyz -4 -8 0.5)
 			)
@@ -15441,20 +15441,20 @@
 		(uuid "ec8eb314-a0b9-4e53-80df-c9e81743b53b")
 	)
 	(segment
+		(start 126.025 79.73)
+		(end 126.999999 79.73)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 56)
+		(uuid "05ef39d3-5fea-4339-a3ec-9b72138c45cc")
+	)
+	(segment
 		(start 124.8167 88.9042)
 		(end 123.9527 88.0402)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 56)
 		(uuid "06e673c9-e7fa-40c6-8ab9-1f5514b8273c")
-	)
-	(segment
-		(start 124.4598 88.0402)
-		(end 123.9527 88.0402)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 56)
-		(uuid "2b325a48-023c-442d-9ab5-58d7a0e8f458")
 	)
 	(segment
 		(start 119.3142 95.5)
@@ -15465,12 +15465,12 @@
 		(uuid "322f1ca0-89cd-48dd-bc55-b007b3bb5bf5")
 	)
 	(segment
-		(start 127.75 80.480001)
-		(end 127.75 84.75)
+		(start 125.2098 88.0402)
+		(end 123.9527 88.0402)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 56)
-		(uuid "40d6f09f-714b-459b-8779-24c4e3970620")
+		(uuid "5bf69085-cb94-4090-a332-ee82497f1acb")
 	)
 	(segment
 		(start 109.5375 93)
@@ -15486,15 +15486,23 @@
 		(width 0.25)
 		(layer "F.Cu")
 		(net 56)
-		(uuid "7177fa61-9dd2-471c-817d-81c66857c55c")
+		(uuid "b3b45a1d-28e5-4143-839e-6504f418a579")
 	)
 	(segment
-		(start 127.75 84.75)
-		(end 124.4598 88.0402)
+		(start 127.75 80.480001)
+		(end 127.75 85.5)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 56)
-		(uuid "b4589824-7118-41f9-a6e8-1ca85ece7a0f")
+		(uuid "c0bdf646-d212-439c-999b-0e7dbb861979")
+	)
+	(segment
+		(start 127.75 85.5)
+		(end 125.2098 88.0402)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 56)
+		(uuid "c1bc94b8-fde3-4053-8454-117b14bff93e")
 	)
 	(segment
 		(start 123.9527 88.0402)
@@ -15527,14 +15535,6 @@
 		(layer "F.Cu")
 		(net 56)
 		(uuid "e5e1aaec-c319-4f87-b675-6af0cc5c87fe")
-	)
-	(segment
-		(start 126.025 79.73)
-		(end 126.999999 79.73)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 56)
-		(uuid "f568ca14-a108-4137-82de-8742168230df")
 	)
 	(segment
 		(start 119.0875 95.5)
