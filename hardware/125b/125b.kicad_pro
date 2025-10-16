@@ -60,31 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|151733422|59205924|2afd5fb8-e826-4c64-96ec-c5911d5df21c|3527e717-156f-4241-9be1-e18f2b5bc8ce",
-          ""
-        ],
-        [
           "silk_edge_clearance|121942500|35000000|3229e573-bed2-4989-9a65-b77ffc5b15c1|bbfe4463-0b08-43a3-8ab0-2f7e041f1b06",
           ""
         ],
         [
           "silk_edge_clearance|131142500|35000000|3229e573-bed2-4989-9a65-b77ffc5b15c1|8e348527-577f-471f-b9bf-a8d416fccf35",
-          ""
-        ],
-        [
-          "silk_edge_clearance|139030000|35000000|3229e573-bed2-4989-9a65-b77ffc5b15c1|5a742051-ccd0-4954-9e38-5fb7c684e48d",
-          ""
-        ],
-        [
-          "silk_edge_clearance|147970000|35000000|3229e573-bed2-4989-9a65-b77ffc5b15c1|d1c59287-b037-48bc-8e2b-bc173b7d994a",
-          ""
-        ],
-        [
-          "silk_edge_clearance|152690269|37535000|32891e28-4045-4a1f-a62f-3d99ebdd16b0|4df0f50b-be70-45a3-a993-bbc28afcade3",
-          ""
-        ],
-        [
-          "silk_edge_clearance|152719999|37584879|32891e28-4045-4a1f-a62f-3d99ebdd16b0|c7887ad5-50b1-4cd2-87b6-9efca67f9583",
           ""
         ]
       ],
@@ -581,8 +561,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "fabrication/",
-      "pos_files": "fabrication/",
+      "plot": "fabrication/0.6/",
+      "pos_files": "fabrication/0.6/",
       "specctra_dsn": "",
       "step": "125b.step",
       "svg": "",

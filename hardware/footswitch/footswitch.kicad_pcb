@@ -2126,6 +2126,50 @@
 			)
 		)
 	)
+	(gr_circle
+		(center 156.5 114.98087)
+		(end 161.5 114.98087)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "743ab2db-2acb-470e-bb2f-e51cd025d2d6")
+	)
+	(gr_circle
+		(center 156.497457 73)
+		(end 161.497457 73)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "8cc5f176-81be-474f-8326-5b6164c2bd42")
+	)
+	(gr_circle
+		(center 139 93.971073)
+		(end 144 93.971073)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "960a9b29-5b7c-4c20-be07-f933c2be67f5")
+	)
+	(gr_circle
+		(center 150.485045 93.735045)
+		(end 153.485045 93.735045)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "9be4872f-cfa9-4932-97b2-7a911074da8f")
+	)
 	(gr_rect
 		(start 130 65)
 		(end 164 123)
