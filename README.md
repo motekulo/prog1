@@ -1,4 +1,4 @@
-# Crouds
+# Prog1
 
 A guitar pedal that will run patches prototyped on a Daisy Pod. I've started with making it through hole and accessible to build.
 
