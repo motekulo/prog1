@@ -1,0 +1,121 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "NYS215"
+   (description "Phone Connectors 1/4\" STEREO SWITCHED REAN")
+   (family "CON")
+   (package "NYS215")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "15.85mm")
+   (attribute "Mouser Part Number" "568-NYS215")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/REAN/NYS215?qs=JfNPhaIww3IP3mAnpHYtWw%3D%3D")
+   (attribute "Manufacturer_Name" "Neutrik")
+   (attribute "Manufacturer_Part_Number" "NYS215")
+   (gate
+    (symbol "NYS215")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+   )
+  )
+  (symbol "NYS215"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "NYS215"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4 18.25)
+      (pt 29 18.25)
+      (pt 29 -1.75)
+      (pt -4 -1.75)
+      (pt -4 18.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4 18.25)
+      (pt 29 18.25)
+      (pt 29 -1.75)
+      (pt -4 -1.75)
+      (pt -4 18.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5 19.25)
+      (pt 30 19.25)
+      (pt 30 -2.75)
+      (pt -5 -2.75)
+      (pt -5 19.25))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 0.000 16.500) (padstack 0))
+   (leg 3 (pt 6.350 0.000) (padstack 0))
+   (leg 4 (pt 6.350 16.500) (padstack 0))
+   (leg 5 (pt 12.700 0.000) (padstack 0))
+   (leg 6 (pt 12.700 16.500) (padstack 0))
+   (padstack 0
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (model "NYS215.stp"
+    (euler 0 0 90)
+    (offset 16.700000762939453 8.25 8.75)
+   )
+  )
+ )
+)

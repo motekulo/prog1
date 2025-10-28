@@ -1,0 +1,264 @@
+(footprint "mini_switch_jaycar_SPDT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "E-Switch sub miniature slide switch, EG series, SPDT, https://www.e-switch.com/wp-content/uploads/2022/06/EG.pdf")
+	(tags "switch SPDT")
+	(property "Reference" "REF**"
+		(at 2.5 -1.65 0)
+		(layer "F.SilkS")
+		(uuid "7460b0c1-0934-4568-a4ae-25582bce7a44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "mini_switch_jaycar_SPDT"
+		(at 2.5 5 0)
+		(layer "F.Fab")
+		(uuid "3ee97298-0cde-4f1a-a1af-b7fbf2a9a42a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69c26461-f750-4da4-8f11-9f5d3bb45a2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44571549-64bb-4468-b40e-673128c08d59")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 -0.25)
+		(end -0.425 -0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a08101e-09f3-475f-a696-e671e7463ef8")
+	)
+	(fp_line
+		(start -1.5 3.35)
+		(end -1.5 -0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16b478e5-481f-407e-a9bd-30cb8a9074f1")
+	)
+	(fp_line
+		(start -0.5 3.45)
+		(end -1.38 3.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38327d0a-0ccb-450d-ae5d-714502913381")
+	)
+	(fp_line
+		(start 1 -0.25)
+		(end 1.53 -0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edaba539-de02-4c7e-afd9-86f8de22cfc6")
+	)
+	(fp_line
+		(start 3.47 -0.25)
+		(end 4.03 -0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d34a9f8-c25d-4908-b84a-1ae9f4fa94d8")
+	)
+	(fp_line
+		(start 5.97 0)
+		(end 6.85 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f54b2524-a16d-4a51-bffe-69c870c861c9")
+	)
+	(fp_line
+		(start 6.85 0)
+		(end 6.85 3.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d37d57e-7232-4bb1-80bc-add16debbfad")
+	)
+	(fp_line
+		(start 6.85 3.45)
+		(end 5.98 3.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f16694c-45ab-49a2-a505-7dd7fee68df1")
+	)
+	(fp_line
+		(start -2 -0.25)
+		(end 7 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f0cf2cb-eecd-4087-ad78-fe7083af4e8c")
+	)
+	(fp_line
+		(start -2 3.45)
+		(end -2 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7676004-05b0-41fa-b850-deece60a8a69")
+	)
+	(fp_line
+		(start 7 -0.25)
+		(end 7 3.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "69c056a8-3ea3-4402-b89e-f6c2cda1f81a")
+	)
+	(fp_line
+		(start 7 3.45)
+		(end -2 3.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "901cd78f-d00c-408f-af78-5a4481f3fa46")
+	)
+	(fp_line
+		(start -1.75 -0.15)
+		(end -1.75 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97a365ce-597e-46b0-bed7-1f355b237572")
+	)
+	(fp_line
+		(start -1.75 -0.15)
+		(end 6.75 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6aa8a09e-b64c-4c88-8afd-3176396f53a1")
+	)
+	(fp_line
+		(start 6.75 -0.15)
+		(end 6.75 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78719cfd-3276-4bcc-b10c-2ce704ac3f89")
+	)
+	(fp_line
+		(start 6.75 3.35)
+		(end -2 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e718024-03ac-46d1-b60d-4c87741dada5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 -1.65 0)
+		(layer "F.Fab")
+		(uuid "1aa56333-a5cc-4a52-9ae4-2efdb8c303a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 5 1.6)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0bbd1a85-ed74-43bd-96ff-4d12dfd3f46b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.6)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7fdd192b-a412-4027-8d1c-001d5dd313eb")
+	)
+	(pad "C" thru_hole rect
+		(at 2.5 1.6)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b0e60c15-9701-4d88-b888-eec3be26e5a9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_E-Switch_EG1271_SPDT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|121942500|35000000|3229e573-bed2-4989-9a65-b77ffc5b15c1|bbfe4463-0b08-43a3-8ab0-2f7e041f1b06",
+          ""
+        ],
+        [
+          "silk_edge_clearance|131142500|35000000|3229e573-bed2-4989-9a65-b77ffc5b15c1|8e348527-577f-471f-b9bf-a8d416fccf35",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -552,8 +561,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "fabrication/",
-      "pos_files": "fabrication/",
+      "plot": "fabrication/0.6/",
+      "pos_files": "fabrication/0.6/",
       "specctra_dsn": "",
       "step": "125b.step",
       "svg": "",

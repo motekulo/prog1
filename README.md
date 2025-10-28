@@ -1,32 +1,26 @@
 # Prog1
 
-A guitar pedal that will run patches prototyped on a Daisy Pod. I've started with making it through hole and accessible to build.
+A [guitar pedal](https://progpedals.com.au/pedals/) that runs patches prototyped on a Daisy Pod. 
 
-[Here's a demo](https://www.youtube.com/watch?v=Z1YsjiImZnQ) of some of the early effects and overall idea.
+[ProgPedals](https://progpedals.com.au) is the site dedicated to this pedal, patches, and community.
 
 ## Thanks
 
-- For hardware thanks to work on the Dasiy Petal, the Terrarium and the work of  [Keith Shepherd](https://github.com/bkshepherd) 
+- For hardware thanks to work on the Dasiy Petal, the [Terrarium](https://www.pedalpcb.com/product/pcb351/), [Hothouse](https://clevelandmusicco.com/hothouse-diy-digital-signal-processing-platform-kit/) and the work of  [Keith Shepherd](https://github.com/bkshepherd)
 - Timothy Schoen and other developers (Alex Mitchell, for example) for Plugdata
 - Wasted Audio for the [Heavy hvcc compiler](https://wasted-audio.github.io/hvcc/)
 - Graham Wakefield and Gregory Taylor for [Generating Sound and Organizing Time](https://cycling74.com/books/go)
 
-## Things to do - v0.3 to 0.4
-
-- J1-8 labels can go on back of board as well
-- fix encoder pins (currently the wrong way around)
-- fix schematic connection between pins 1 and 2 of TL074
-- increase width of board, and bevel corners to fit in enclosure
-
 ## Videos
 
-[Version 0.3 with a delay/ looper patch](https://youtu.be/q5X9XX3Vkqw)
-
-[Version 0.3 with a distortion patch](https://youtu.be/5CY0gC0ThXo)
-
+[ProgPedals playlist](https://www.youtube.com/playlist?list=PL_tHhignqT_7VD3HtruWB_GTngK06rujz)
 
 ## Roadmap
-SMD version as well as through hole.
+
+- Prog2 - using the [Daisy Seed2 DFM](https://electro-smith.com/pages/daisy-seed2-dfm)
+- ~~ Footswitch PCBs connected via IDC cable ~~
+- ~~ Better audio sockets ~~
+- ~~ SMD version as well as through hole. ~~
 
 ## About me
 I'm a musician/ lecturer - https://researchers.mq.edu.au/en/persons/denis-crowdy, https://codemusic.studio

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NYS215"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-12-05-10:05:39)
+    (mountForm default
+        (footprintRef "NYS215")
+        (spec "System")
+    )
+)
