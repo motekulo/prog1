@@ -436,13 +436,13 @@
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 	(model "/home/dcrowdy/progpedals/prog1/hardware/3dmodels/3-D NMJ6HCD2.stp"
