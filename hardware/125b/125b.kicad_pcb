@@ -12677,7 +12677,7 @@
 		(layer "Edge.Cuts")
 		(uuid "c932cc18-437e-4fbf-b385-ccdc4e14ea75")
 	)
-	(gr_text "Prog1 v0.6 Denis Crowdy, Prog Pedals"
+	(gr_text "Prog1 v0.7 Denis Crowdy, Prog Pedals"
 		(at 142 108.45 0)
 		(layer "B.SilkS")
 		(uuid "874d6562-46f9-4ad9-9e03-a1f9291a2fcd")
