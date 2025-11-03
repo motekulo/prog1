@@ -233,21 +233,21 @@
 		(remove_unused_layers no)
 		(uuid "0bbd1a85-ed74-43bd-96ff-4d12dfd3f46b")
 	)
-	(pad "2" thru_hole circle
-		(at 0 1.6)
-		(size 1.6 1.6)
-		(drill 0.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "7fdd192b-a412-4027-8d1c-001d5dd313eb")
-	)
-	(pad "C" thru_hole rect
+	(pad "2" thru_hole rect
 		(at 2.5 1.6)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b0e60c15-9701-4d88-b888-eec3be26e5a9")
+	)
+	(pad "3" thru_hole circle
+		(at 0 1.6)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7fdd192b-a412-4027-8d1c-001d5dd313eb")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_E-Switch_EG1271_SPDT.step"

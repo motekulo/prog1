@@ -445,15 +445,15 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "/Users/dcrowdy/progpedals/crouds/hardware/3dmodels/3-D NMJ6HCD2.stp"
+	(model "/home/dcrowdy/progpedals/prog1/hardware/3dmodels/3-D NMJ6HCD2.stp"
 		(offset
-			(xyz -4 -8 0.5)
+			(xyz 17 -8 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 90)
+			(xyz -90 -0 -90)
 		)
 	)
 )
