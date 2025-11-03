@@ -1722,7 +1722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pcb switch:DPDT momentary footswitch"
+		(property "Footprint" "Library:0.7 footswitches"
 			(at 139.7 157.15 0)
 			(effects
 				(font
@@ -1844,7 +1844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:Switches_Stomp_Switch_3PDT"
+		(property "Footprint" "Library:0.7 footswitches - 3dpdt tayda"
 			(at 133.35 100.33 0)
 			(effects
 				(font
@@ -2172,7 +2172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pcb switch:DPDT momentary footswitch"
+		(property "Footprint" "Library:0.7 footswitches"
 			(at 139.7 143.18 0)
 			(effects
 				(font
