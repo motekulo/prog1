@@ -7229,196 +7229,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_Push_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Momentary Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_SPDT_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.016) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Push_SPDT_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.2032) (xy 2.3368 1.9812)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Push_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -8486,16 +8296,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 55.88) (xy 44.45 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "956f36ab-2eb0-4d00-918f-f9044963e35f")
-	)
-	(wire
-		(pts
 			(xy 193.04 30.48) (xy 193.04 35.56)
 		)
 		(stroke
@@ -8526,7 +8326,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 53.34) (xy 27.94 53.34)
+			(xy 30.48 50.8) (xy 55.88 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8633,16 +8433,6 @@
 			(type default)
 		)
 		(uuid "b848250a-ea42-4f65-b0f3-ebee3ab44638")
-	)
-	(wire
-		(pts
-			(xy 38.1 50.8) (xy 55.88 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8675b74-bee2-4588-ba97-9620f07b3bc8")
 	)
 	(wire
 		(pts
@@ -9265,7 +9055,7 @@
 		(uuid "589f6d16-8659-49e1-97ae-4f05bf1d2136")
 	)
 	(label "fsw7"
-		(at 20.32 53.34 180)
+		(at 30.48 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9333,16 +9123,6 @@
 			(justify left bottom)
 		)
 		(uuid "6b61678a-3f6e-4cd9-8dd7-eaa6de936adc")
-	)
-	(label "Left in"
-		(at 44.45 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70c617eb-0da9-498e-9f58-127c7e134231")
 	)
 	(label "fsw2"
 		(at 19.05 156.21 0)
@@ -14927,77 +14707,6 @@
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_SPDT")
-		(at 33.02 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6ece77d-90de-4420-8f30-e5c08cde0108")
-		(property "Reference" "SW1"
-			(at 33.02 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_SPDT"
-			(at 33.02 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project:mini_switch_jaycar_SPDT"
-			(at 33.02 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Momentary Switch, single pole double throw"
-			(at 33.02 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "56255d55-7fa7-42c8-9dc6-375cce445808")
-		)
-		(pin "2"
-			(uuid "afc5c76a-246b-4902-8036-590949c90b44")
-		)
-		(pin "1"
-			(uuid "ec3b893c-a4fd-40ee-ad18-b8270557a07c")
-		)
-		(instances
-			(project ""
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
