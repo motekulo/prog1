@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Podal")
-		(date "2025-09-17")
-		(rev "0.6")
+		(date "2025-11-05")
+		(rev "0.7")
 	)
 	(lib_symbols
 		(symbol "+5V_1"

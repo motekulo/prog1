@@ -8,8 +8,8 @@
 	)
 	(paper "A4")
 	(title_block
-		(date "2025-06-09")
-		(rev "0.4")
+		(date "2025-11-05")
+		(rev "0.7")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -421,7 +421,7 @@
 			(uuid "8ed966cc-f7a9-409f-b8f4-c9ed9e4ea5bc")
 		)
 		(fp_text user "K"
-			(at 2.06 -2.15 0)
+			(at -2.44 -0.25 0)
 			(layer "F.SilkS")
 			(uuid "98614d2a-083e-4812-9ed2-0410e3d2e80c")
 			(effects
@@ -1356,7 +1356,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 2 2 0)
+			(at 3.0875 0 0)
 			(layer "F.SilkS")
 			(uuid "416c53f2-2d7f-404f-9e0b-fd9e78b65af8")
 			(effects
@@ -2152,7 +2152,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at -2.5 0 0)
+			(at 2.5 0.75 0)
 			(layer "F.SilkS")
 			(uuid "ec1724fb-cfdf-4b6c-941c-af8022ae7f83")
 			(effects
@@ -3814,7 +3814,7 @@
 		(descr "113004U 1130A6S 11300DR 1130A8G 1130081 1130A5R 1130AP5 1130AST  D1130C3W D1130C1B D1130C3C D1130C2P Potentiometer, vertical, Alps RK09K Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09k/rk09k.pdf")
 		(tags "Potentiometer vertical Alps RK09K RK09D Single Snapin")
 		(property "Reference" "RV2"
-			(at 16.813178 -1.236822 180)
+			(at 13.8 -4.25 180)
 			(layer "F.SilkS")
 			(uuid "e674d5bf-bd16-49c9-ae6a-0eeed3773f2e")
 			(effects
@@ -4339,7 +4339,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 3.019805 0.095577 0)
+			(at 5.6625 0 0)
 			(layer "F.SilkS")
 			(uuid "ab1920e1-ff45-40e0-a820-7529b1e4a33d")
 			(effects
@@ -4538,7 +4538,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 3.05 -0.5 0)
+			(at -1.25 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "321938b4-0168-4fee-86c8-87573f1f4df0")
 			(effects
@@ -4737,7 +4737,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at 4.048828 -0.031866 0)
+			(at 3 -1.25 0)
 			(layer "F.SilkS")
 			(uuid "2e19ad6e-8fd3-4705-8f19-10097a7f1388")
 			(effects
@@ -5262,7 +5262,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 3.1625 1.75 0)
+			(at 2.9125 2 0)
 			(layer "F.SilkS")
 			(uuid "45ebae94-abd6-45aa-864a-e601ff0c01d4")
 			(effects
@@ -5461,7 +5461,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at -2.6625 -2 0)
+			(at 0.3375 5 0)
 			(layer "F.SilkS")
 			(uuid "62673d64-be31-486c-8286-7fc8579e9c41")
 			(effects
@@ -5859,7 +5859,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at -3.05 -1.25 0)
+			(at -3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "7c2b3d73-c0f8-4979-ab08-6e592d851550")
 			(effects
@@ -6059,7 +6059,7 @@
 		(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF")
 		(tags "rotary encoder")
 		(property "Reference" "SW2"
-			(at 12 10.325 180)
+			(at 17 -1.175 180)
 			(layer "F.SilkS")
 			(uuid "e18fae72-e466-4672-8466-d75982464500")
 			(effects
@@ -6695,7 +6695,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at -3.5 0 0)
+			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "e72e2a63-f4d3-41f8-a46e-8b5d410876bd")
 			(effects
@@ -6894,7 +6894,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at -0.0875 2 180)
+			(at 3 0.75 180)
 			(layer "F.SilkS")
 			(uuid "f3910e00-1cf8-4dea-99d7-8204cfd48340")
 			(effects
@@ -7292,7 +7292,7 @@
 		(descr "Soldered wire connection, for 2 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
 		(property "Reference" "SW3"
-			(at 0.55 -2.75 0)
+			(at 8.3 0.75 0)
 			(layer "F.SilkS")
 			(uuid "8e50c8ce-e294-4a21-bc5b-93ef2aade2da")
 			(effects
@@ -7497,7 +7497,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at 2.75 -0.5 0)
+			(at 3 -0.25 0)
 			(layer "F.SilkS")
 			(uuid "d11f2c16-0acc-4181-98f2-bca992c0bb7f")
 			(effects
@@ -7696,7 +7696,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R20"
-			(at 2.1625 2 0)
+			(at 3.3375 1.25 0)
 			(layer "F.SilkS")
 			(uuid "2526b437-9f15-44c0-b8bc-64e90b88592d")
 			(effects
@@ -9311,7 +9311,7 @@
 		(descr "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins, https://www.neutrik.com/en/product/nmj6hcd2")
 		(tags "neutrik jack m")
 		(property "Reference" "J1"
-			(at 1.435 -18.792086 90)
+			(at -5.5 -1.5 180)
 			(layer "B.SilkS")
 			(uuid "e8a7b964-834c-4017-98ec-14292b12da18")
 			(effects
@@ -9929,7 +9929,7 @@
 		(descr "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins, https://www.neutrik.com/en/product/nmj6hcd2")
 		(tags "neutrik jack m")
 		(property "Reference" "J4"
-			(at 6.35 3 90)
+			(at -6.15 -15.5 180)
 			(layer "B.SilkS")
 			(uuid "3354d612-8127-43aa-9b7e-d5a6b48110a7")
 			(effects
@@ -11187,7 +11187,7 @@
 		(descr "Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x05 2.54mm double row")
 		(property "Reference" "J3"
-			(at 1.25 -17 180)
+			(at -5.25 -8.5 180)
 			(layer "B.SilkS")
 			(uuid "bd3111b2-aa9c-4c42-ba61-349d8726298a")
 			(effects
@@ -11931,7 +11931,7 @@
 		(descr "DC Barrel Jack")
 		(tags "Power Jack")
 		(property "Reference" "J2"
-			(at -8 -5.7075 90)
+			(at 2 -4.25 180)
 			(layer "B.SilkS")
 			(uuid "f64062e0-0057-478f-9e6e-b0b400a969ac")
 			(effects
@@ -12655,14 +12655,6 @@
 		(layer "F.Cu")
 		(net 20)
 		(uuid "26e5233f-056d-478a-84a4-d0fb2af663d6")
-	)
-	(segment
-		(start 147.15 59.75)
-		(end 154 59.75)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "51b16e2c-c5ea-468e-a03d-c3dcc9a9167e")
 	)
 	(segment
 		(start 120.974 74.24618)
