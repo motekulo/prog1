@@ -1,6 +1,6 @@
 #N canvas 100 100 600 400 10;
-#X obj 426 642 adc~;
-#X obj 259 782 delwrite~ chor 100;
+#X obj 149 776 adc~;
+#X obj 81 1287 delwrite~ chor 100;
 #X obj 421 1698 dac~;
 #X obj 628 807 cos~;
 #X obj 628 830 +~ 1;
@@ -111,7 +111,7 @@
 #X connect 17 0 6 0;
 #X connect 21 0 0 0;
 #X restore 426 1580 pd crossfade;
-#X obj 493 104 hsl 128 20 0 1 0 0 empty empty empty -2 -8 0 10 #e4e4e4 #4d4d4d #373737 0 1;
+#X obj 493 138 hsl 128 20 0 1 0 0 empty empty empty -2 -8 0 10 #e4e4e4 #4d4d4d #373737 0 1;
 #X text 496 14 wet/ dry mix, f 13;
 #X obj 842 56 r Knob2 @hv_param;
 #X obj 1040 56 r Button1 @hv_param;
@@ -123,9 +123,9 @@
 #X obj 513 838 r~ modulation;
 #X msg 1339 1164 0.5;
 #X text 1040 23 Chorus type;
-#X obj 1854 16 r Encoder @hv_param;
-#X msg 1923 89 -1;
-#X msg 1960 89 1;
+#X obj 1962 7 r Encoder @hv_param;
+#X msg 2031 80 -1;
+#X msg 2068 80 1;
 #N canvas 733 172 450 300 encode 0;
 #X floatatom 875 253 5 0 0 0 - - - 12;
 #X obj 766 131 i;
@@ -204,13 +204,13 @@
 #X text 1770 555 Vibrato;
 #X text 716 622 Roland style;
 #X text 1242 622 Classic style;
-#X text 1894 56 -1 if encoder wrong way round;
+#X text 2002 47 -1 if encoder wrong way round;
 #X text 2240 -8 Switch between depth and base delay;
 #X obj 1835 875 r~ modulation;
 #X obj 1783 931 *~;
 #X text 2270 643 base delay;
 #X obj 2245 819 * 80;
-#X obj 1854 57 * -1;
+#X obj 1962 48 * -1;
 #X obj 1033 936 +;
 #X msg 1033 1022 0;
 #X msg 784 1164 0.5;
@@ -231,8 +231,8 @@
 #X obj 715 974 +~;
 #X obj 814 974 +~;
 #X obj 909 974 +~;
-#X connect 0 0 1 0;
 #X connect 0 0 67 0;
+#X connect 0 0 1 0;
 #X connect 3 0 4 0;
 #X connect 4 0 16 0;
 #X connect 5 0 6 0;
@@ -263,7 +263,7 @@
 #X connect 28 0 23 0;
 #X connect 29 0 24 0;
 #X connect 30 0 55 0 32.................Y....3B...PF....t....bP....;
-#X connect 31 0 55 0 32.................m....f8++++I....X++++eP....;
+#X connect 31 0 55 0 32.................r....f8+++OK....X++++eP....;
 #X connect 32 0 55 0 32.................0....b3+++eM....G9+++eP....;
 #X connect 33 0 55 0 48.................+....b1++++O....m8++++C....I+++++....Px++++AA...;
 #X connect 34 0 86 0;
