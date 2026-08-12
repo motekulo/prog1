@@ -80,10 +80,10 @@
 #X msg 792 540 1;
 #X msg 829 540 2;
 #X msg 1496 436 1;
-#X obj 860 -169 loadbang;
-#X obj 824 -45 s inittempo;
+#X obj 860 -208 loadbang;
+#X obj 819 -45 s inittempo;
 #X obj 1063 841 r inittempo;
-#X msg 824 -84 500;
+#X msg 819 -84 500;
 #X msg 929 -84 4;
 #X obj 823 343 r Encoder @hv_param;
 #X obj 559 18 r EncSwitch @hv_param;
@@ -320,7 +320,7 @@
 #X obj 1062 -45 s initphasormult;
 #X obj 276 -29 r initphasormult;
 #X msg 1076 -77 2;
-#X obj 1222 -134 t b b;
+#X obj 860 -169 t b b;
 #X obj 1063 1130 bng 25 250 50 0 empty empty empty 0 -10 0 10 #e4e4e4 #4d4d4d #373737;
 #X msg 1079 1202 1;
 #X obj 1077 1241 +;
@@ -349,6 +349,7 @@
 #X obj 957 493 sel 0 1 2 3;
 #X msg 1081 540 4;
 #X msg 1041 540 3;
+#X obj 819 -117 delay 500;
 #X connect 0 0 40 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
@@ -533,7 +534,7 @@
 #X connect 194 0 180 0;
 #X connect 196 0 183 0;
 #X connect 197 0 195 0;
-#X connect 198 0 84 0;
+#X connect 198 0 227 0;
 #X connect 198 1 146 0;
 #X connect 198 1 197 0;
 #X connect 198 1 85 0;
@@ -573,3 +574,4 @@
 #X connect 224 3 225 0;
 #X connect 225 0 92 0;
 #X connect 226 0 92 0;
+#X connect 227 0 84 0;
