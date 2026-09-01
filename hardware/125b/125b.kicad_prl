@@ -43,6 +43,7 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
+      "zones",
       "drc_warnings",
       "conflict_shadows",
       "shapes"
